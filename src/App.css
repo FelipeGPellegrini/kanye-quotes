@@ -1,0 +1,43 @@
+.App {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.containerHeader {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.btn {
+  margin-top: 20vh;
+  border: 0;
+  background-color: rgb(128, 70, 0);
+  border-radius: 10px;
+  color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.361);
+  transition: all, 0.3s;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(62, 34, 0);
+}
+
+#quote {
+  margin: 50px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  transform: scaleY(1);
+  transition: all, 1s;
+}
+
+#noQuote {
+  transform: scaleY(0);
+}
